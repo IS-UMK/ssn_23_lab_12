@@ -9,16 +9,16 @@ Notatnik: [autoencoder.ipynb](https://github.com/IS-UMK/ssn_23_lab_12/blob/maste
 
 ## Zad. 12. Autoenkoder czyszczący dokumenty
 
-Katalog [dane/document_denoising/](dane/document_denoising/) zawiera obrazy (skany) zawierające próbki tekstu wraz z róznorodnymi zniekształceniami.  
-Zadanie polega na zbudowaniu modelu usuwającego zniekształcenia z obrazów.
-Dane treningowe zawarte w podkatalogu ``dane/document_denoising/train/`` zawierają 144 obrazów o maksymalnym rozmiarze  420x540. 
+Katalog [dane/document_denoising/](dane/document_denoising/) zawiera obrazy (skany) zawierające próbki tekstu wraz z różnorodnymi zniekształceniami.  
+Zadanie polega na zbudowaniu modelu usuwającego zniekształcenia z obrazów.  
+Dane treningowe zawarte w podkatalogu ``dane/document_denoising/train/`` zawierają 144 obrazów o maksymalnym rozmiarze  420x540.
+
 ![dane/document_denoising/train/2.png](dane/document_denoising/train/2.png)
 
-W katalogu ``dane/document_denoising/train_cleaned/`` znajdują odpowiadająe im obrazy bez zniekształceń.  
+W katalogu ``dane/document_denoising/train_cleaned/`` znajdują się odpowiadające im obrazy bez zniekształceń.  
 ![dane/document_denoising/train_cleaned/2.png](dane/document_denoising/train_cleaned/2.png)
 
-Zbuduj głeboki autoenkoder z warstwami splotowymi o jak najlepszej jakości usuwania zniekształceń i zastosuj go na 4 obrazach testowych znajdujących się w kataogu ``dane/document_denoising/test/``. 
-
+Zbuduj głęboki autoenkoder z warstwami splotowymi o jak najlepszej jakości usuwania zniekształceń i zastosuj go na 4 obrazach testowych znajdujących się w katalogu ``dane/document_denoising/test/``.
 
 
 Rozwiązanie w postaci notatnika Jupyter (``.ipynb``) lub skrypt w języku Python (``.py``) umieść w Moodle lub prześlij do repozytorium GitHub.
@@ -26,8 +26,4 @@ Rozwiązanie w postaci notatnika Jupyter (``.ipynb``) lub skrypt w języku Pytho
 ---
 ## Materiały:
 
-*  [Building Autoencoders in Keras](https://blog.keras.io/building-autoencoders-in-keras.html), The Keras Blog
-
-
-
-
+* [Building Autoencoders in Keras](https://blog.keras.io/building-autoencoders-in-keras.html), The Keras Blog
